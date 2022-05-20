@@ -1,0 +1,399 @@
+@font-face {
+    font-family: "Caviar_dreamsregular";
+    src: url('/Fuentes/caviardreams-webfont.eot');
+    src: url('/Fuentes/caviardreams-webfont.woff') format('woff');
+    src: url('/Fuentes/caviardreams-webfont.ttf') format('truetype');
+    src: url('/Fuentes/caviardreams-webfont.svg') format('svg');
+    src: url('/Fuentes/caviardreams-webfont.woff2');
+    font-weight: normal;
+    font-style: normal;
+}
+
+aside{
+    width: 20%;
+    background:#7f79a8;
+    padding: 40px;
+    float: right;
+    height: 300px;
+}
+
+.contenedor {
+    margin-left: auto;
+    margin-right: auto;
+    width: 85%;
+    height: 100%;
+    overflow: hidden;
+    background: rgba(204, 204, 204, .4);
+    border-radius: 5px 5px 10px 10px;
+    -webkit-box-shadow: 0px 0px 0px 1px rgba(255, 255, 255, 0.4), 0px 0px 15px rgba(204, 204, 204, 0.5);
+    -moz-box-shadow: 0px 0px 0px 1px rgba(255, 255, 255, 0.4), 0px 0px 15px rgba(204, 204, 204, 0.5);
+    box-shadow: 0px 0px 0px 1px rgba(255, 255, 255, 0.4), 0px 0px 15px rgba(204, 204, 204, 0.5);
+}
+
+header, nav, section, article, footer {
+    border-radius: 10px;
+    padding: 15px;
+    margin-top: 10px;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+header{
+    height: 80px;
+    width: 100%;
+    float: center;
+    background-color: #7f79a8;
+    overflow: hidden;
+    
+}
+
+nav{
+    width: 27%;
+    float: left;
+    background-color: #615c89;
+    margin-left: 3%;
+}
+
+section{
+    width: 62%;
+    float: right;
+    background-color: #44406b;
+    overflow: hidden;
+}
+
+footer{
+    height: auto;
+    width: 100%;
+    float: left;
+    background-color: #4f4d77;
+    padding: 40px;
+    
+    
+}
+
+header, footer, article {
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+article{
+    width: 90%;
+    float: center;
+    background-color: #7f79a8;
+    overflow: hidden;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+
+body{
+    line-height: 1;
+    font: 16px/28px 'caviar_dreamsregular', Georgia, 'Times New Roman';
+    background-color: #dbd9eb;
+    background-image: -webkit-gradient(linear, 0 100%, 100 0,
+                        color-stop(.25, rgba(255, 255, 255, .2)), color-stop(.25, transparent),
+                        color-stop(.5, transparent), color-stop(.5,rgba(255,255,255, .2)),
+                        color-stop(.75, rgba(255, 255, 255, .2)), color-stop(.75, transparent),
+                        to(transparent)); 
+    background-image: -webkit-linear-gradient(45deg, rgba(255, 255, 255, .2) 25%, transparent 25%,
+                        transparent 50%, rgba(255, 255, 255, .2) 50%, rgba(255, 255, 255, .2) 75%,
+                        transparent 75%, transparent); 
+    background-image: -moz-linear-gradient(45deg, rgba(255, 255, 255, .2) 25%, transparent 25%,
+                        transparent 50%, rgba(255, 255, 255, .2) 50%, rgba(255, 255, 255, .2) 75%,
+                        transparent 75%, transparent);
+    background-color: -o-linear-gradient(45deg, rgba(255, 255, 255, .2) 25%, transparent 25%,
+                        transparent 50%, rgba(255, 255, 255, .2) 50%, rgba(255, 255, 255, .2) 75%,
+                        transparent 75%, transparent);   
+    background-image: linear-gradient(45deg, rgba(255, 255, 255, .2) 25%, transparent 25%,
+                        transparent 50%, rgba(255, 255, 255, .2) 50%, rgba(255, 255, 255, .2) 75%,
+                    transparent 75%, transparent);   
+    background-size: 16px 16px;  
+    
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-family: 'caviar_dreamsregular';
+    text-shadow: 0 2px 0 #615c89;
+}
+
+h1{
+    font-size: 32px;
+}
+
+h2{
+    font-size: 26px;
+}
+
+h3{
+    font-size: 20px;
+    letter-spacing: -1px;
+}
+
+header h1{
+    font-family: 'caviar_dreamsregular';
+    font: bold;
+    font-size: 2.3em;
+    font-weight: 20px;
+    color: #000000;
+    text-shadow: 0 3px 0 #fff;
+    letter-spacing: -3px;
+    text-align: left;
+}
+
+header img{
+    float:right;
+    height: 100%;
+    margin-right:5%;
+
+    /* define el retrazo y la velocidad de cambios*/
+    transition-delay: 0s;
+    -moz-transition-delay: 0s;
+    transition-duration: 2s;
+    transition-property:all;
+
+}
+
+header img:hover{
+    height: 120%;
+    margin-right: 15%;
+
+    /*Para animar el logo cuando se pasa el cursor sobre él*/
+    transform: rotate(30deg);
+    -webkit-transform: rotate(30deg);
+    -moz-trasnform: rotate(30deg);
+
+}
+
+footer img{
+    float: left;
+    height: 100%;
+    margin-right: 20%;
+}
+
+li a{
+    display:inline-block;
+    font-size: 1.1em;
+    font-family: 'caviar_dreamsregular';
+    margin-top: 7px;
+    width: 80%;
+    padding: 5% 15%;
+    color: #615c89;
+    text-decoration: none;
+
+    /* Fondo con gradiente*/
+    background: -moz-linear-gradient(center top, #181737 0%, #7f79a8 100%) repeat scroll 0
+                0 transparent ;
+    background: -webkit-gradient(linear, left top, left bottom, color-stop(0%, #7f79a8),
+                color-stop(100%, #7f79a8));
+    
+    /* Borde redondeado en esquinas opuestas*/
+    -moz-border-radius: 20px 0 20px 0;
+    -webkit-border-radius: 20px 0 20px 0;  
+    border-radius: 20px 0 20px 0;
+
+    /*Sombreados */
+    text-shadow: 1px 1px 1px #7f79a8;
+    -moz-box-shadow: 0px 6px 0 #7f79a8;
+    -webkit-box-shadow:0px 6px 0 #7f79a8;
+    box-shadow: 0px 6px 0 #7f79a8;
+    margin-top: 5px;
+}
+
+
+li a:hover{
+    -moz-border-radius: 0 20px 0 20px;
+    -webkit-border-radius: 0 20px 0 20px;
+    border-radius: 0 20px 0 20px;
+
+    background: -moz-linear-gradient(center top, #7f79a8 0%, #7f79a8 100%)
+    repeat scroll 0 0 transparent;
+    background:  -webkit-gradient(linear, left top, left bottom,
+                  color-stop(0%, #7f79a8), color-stop(100%, #7f79a8));
+                  -moz-box-shadow: 0px 6px 0 #615c89;
+                  -webkit-box-shadow: 0px 6px 0 #615c89;
+                  box-shadow: 0px 6px 0 #615c89;
+    
+}
+
+li a:active{
+    /* Efecto de movimiento*/
+    position: relative;
+    top:3px;
+
+    /* Efecto de undimiento*/
+    -moz-box-shadow:0px 3px 0 #7f79a8;
+    -webkit-box-shadow:0px 3px 0 #7f79a8;
+    box-shadow: 0px 3px 0 #7f79a8;
+
+    /*Invertir degradado*/
+    background: -moz-linear-gradient(center top, #7f79a8 0%, #7f79a8 100%)
+    repeat scroll 0 0 transparent;
+    background: -webkit-gradient(linear, left top, left bottom,
+                color-stop(0%, #7f79a8), color-stop(100%, #7f79a8));
+}
+
+
+li{
+    list-style: none;
+    width: 50%;
+    padding: 2%;
+    display: flex;
+}
+
+.x{
+    background: linear-gradient(65deg, #615c89, #ceccdf);
+}
+
+/*diseño 
+
+/*Para resoluciones hasta 480 px*/
+@media screen and (max-width: 480px) {
+
+    div.contenedor {
+        width: 100%;
+    }
+
+    header, nav, section, footer, article{
+        float: left;
+        width: 95%;
+        margin-left: 3%;
+        margin-top: 3px;
+        margin-bottom: 3px;
+        padding: 5px
+    }
+
+    header{
+        height: 60px;
+    }
+
+    footer{
+        height: 30px;
+    }
+
+
+
+    /* Tamaños de Fuentes*/
+    h1 {
+        font-size: 17px;
+        text-shadow: 0 0 0; /*eliminar la sombra*/
+    }
+
+    h2 {
+        font-size: 14px;
+    }
+
+    header h1{
+        font-size: 18px;
+        margin-top: 5%;
+    }
+    p { font-size: 13px;
+        line-height: 1.2em;
+    }
+
+
+    /* Botones*/
+    li a {
+        font-size: .9em;
+        margin-top: 0px;
+        margin-left: 2px;
+        float: left;
+        width: 23%;
+        padding: 2px 4px;
+        margin-bottom: 3px; 
+            
+        /*Borde redondeado en esquinas opuestas*/
+        -moz-border-radius: 17px 0 17px 0;
+        -webkit-border-radius: 17px 0 17px 0;
+        border-radius: 17px 0 17px 0;
+
+    }
+
+
+    /*Logo principal*/
+    header img{
+        margin-right: 2%;
+    }
+
+    header img:hover{
+        margin-right:10%;
+    }
+}
+
+/*Para resoluciones hasta 700 px*/
+@media screen and (max-width: 700px) {
+
+    div.contenedor {
+        width: 100%;
+    }
+
+    header, nav, section, footer, article{
+        float: left;
+        width: 95%;
+        margin-left: 3%;
+        margin-top: 3px;
+        margin-bottom: 3px;
+        padding: 5px
+    }
+
+    header{
+        height: 60px;
+    }
+
+    footer{
+        height: 30px;
+    }
+
+
+
+    /* Tamaños de Fuentes*/
+        h1 {
+        font-size: 17px;
+        text-shadow: 0 0 0; /*eliminar la sombra*/
+    }
+
+    h2 {
+        font-size: 14px;
+    }
+
+    header h1{
+        font-size: 18px;
+        margin-top: 5%;
+    }
+    p { font-size: 13px;
+        line-height: 1.2em;
+    }
+
+
+    /* Botones*/
+    li a {
+        font-size: .9em;
+        margin-top: 0px;
+        margin-left: 2px;
+        float: left;
+        width: 23%;
+        padding: 2px 4px;
+        margin-bottom: 3px; 
+            
+        /*Borde redondeado en esquinas opuestas*/
+        -moz-border-radius: 17px 0 17px 0;
+        -webkit-border-radius: 17px 0 17px 0;
+        border-radius: 17px 0 17px 0;
+
+    }
+
+
+    /*Logo principal*/
+    header img{
+        margin-right: 2%;
+    }
+
+    header img:hover{
+        margin-right:10%;
+    }
+}
+
+
+
+
+
